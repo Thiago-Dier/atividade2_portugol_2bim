@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+
+    inteiro tempo = 100
+    inteiro disciplinas = 6
+    inteiro tempo_cd_materia = tempo/6
+    inteiro tempo_livre = tempo%6
+
+    escreva("Ele deve estudar ", tempo_cd_materia, " minutos pra cada matéria", "\n")
+    escreva("Ele terá ", tempo_livre, " minutos de tempo livre")
+    
+  }
+}
