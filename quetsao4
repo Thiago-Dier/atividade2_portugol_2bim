@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro tamanho_informado
+		escreva("Qual tamanho de tábua você quer? 3, 4 ou 5m? ")
+	  leia(tamanho_informado)
+
+			escreva("Você poderá cortar a tábua em ", tamanho_informado*100/45, " pedaços", "\n")
+      escreva("Sobrará um pedaço de ", tamanho_informado*100%45, " cm")
+}
+}
