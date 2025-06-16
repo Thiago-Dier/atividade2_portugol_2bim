@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+
+    real ano = 365 
+    real h_ano = ano * 24
+    real decada = ano * 10
+    real h_decada = decada * 24
+    real m_decada = h_decada * 60
+    inteiro idade = 15
+    inteiro s_idade = (idade*365)*24*60*60
+    inteiro sua_idade = 977000000
+    inteiro s_ano = 365*24*60*60
+    inteiro h_anos_vida = sua_idade/s_ano
+
+    escreva ("Um ano possui ", ano, " dias, logo possui ", h_ano, " horas", "\n")
+    escreva ("Uma década possui ", decada, " dias, ", h_decada, " horas e ", m_decada, " minutos", "\n")
+    escreva ("Eu tenho 15 anos, logo tenho ", s_idade, " segundos de vida", "\n")
+    escreva ("Eu quero comer chocolate pro resto da minha vida, com moderação é claro", "\n")
+    escreva ("Vc tem aproximadamente ", h_anos_vida , " anos de vida")
+  }
+}
