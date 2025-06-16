@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+
+    inteiro tempo_mercurio = 0.2408467*365
+    inteiro tempo_venus = 0.61519726*365
+    inteiro tempo_marte = 1.8808158*365
+    inteiro tempo_jupiter = 11.862615*365
+    inteiro tempo_urano = 84.016846*365
+    inteiro tempo_netuno = 164.79132*365
+    inteiro sua_idade = 31
+    inteiro d_sua_idade = sua_idade*365
+    inteiro idade_mer = d_sua_idade/tempo_mercurio
+    inteiro idade_pessoa
+
+    escreva ("Mercúrio demora ", tempo_mercurio, " dias, Vênus demora ", tempo_venus, " dias, Marte demora ", tempo_marte, " dias", "\n")
+    escreva ("Jupiter demora ", tempo_jupiter, " dias, Urano demora ", tempo_urano, " dias e Netuno demora ", tempo_netuno, " dias", "\n")
+    escreva ("Vc teria ", idade_mer, " anos em Mercúrio", "\n")
+    escreva ("Qual sua idade? ")
+    leia(idade_pessoa)
+    inteiro id_pes_marte = idade_pessoa*365/tempo_marte
+    escreva ("Vc tem ", idade_pessoa, " anos, em Marte vc teria ", id_pes_marte, " anos", "\n" )
+    escreva ("Em Marte, Jupiter, Urano e Netuno vc seria mais jovem")
+  }
+}
