@@ -1,0 +1,16 @@
+programa {
+
+  inclua biblioteca Matematica --> m
+
+  funcao inicio() {
+
+   real b = 11.5
+   real c = 6.3
+
+   real pitagoras = m.raiz(m.potencia(b,2)+m.potencia(c,2),2)
+
+   escreva ("O comprimento do fio deve ser ", pitagoras, " metros") 
+
+
+  }
+}
