@@ -1,0 +1,22 @@
+programa {
+
+  inclua biblioteca Matematica --> m
+
+  funcao inicio() {
+    
+    real l1, l2
+    real pitagoras
+
+    escreva("Fale a medida de um lado da sua casa ")
+    leia(l1)
+
+    escreva("Agora fale a medida do outro lado de sua casa ")
+    leia(l2)
+
+    pitagoras = m.raiz(m.potencia(l1,2)+m.potencia(l2,2),2)
+
+    escreva ("Seu eletricista precisaria de ", pitagoras, " metros de fios para passar no telhado de sua casa")
+
+
+  }
+}
