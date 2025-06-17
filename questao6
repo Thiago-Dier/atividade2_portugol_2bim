@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    
+    inteiro minutos_semana = 6*5 // minutos multiplicados pelos dias da semana
+    inteiro minutos_ano = minutos_semana*52 // um ano possui 52 semanas, aproximadamente
+    inteiro horas_ano = minutos_ano/60
+
+    escreva ("Essa pessoa leu esse livro por ", horas_ano, " horas em um ano")
+
+
+  }
+}
